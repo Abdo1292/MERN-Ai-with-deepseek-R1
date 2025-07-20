@@ -83,7 +83,7 @@ const ChatItem = ({
           style={coldarkDark}
           key={index}
           language={CodeLang(block)}
-          wrapLines= {true}
+          wrapLines = {true}
           wrapLongLines = {true}
         >
           {block}
@@ -91,7 +91,7 @@ const ChatItem = ({
       ) : (
         <Typography
           key={index}
-          sx={{ fontSize: "20px", overflowWrap: "anywhere" }}
+          sx={{ fontSize: "20px", overflowWrap: "anywhere",  }}
         >
           {cleanResponse(block)}
         </Typography>
@@ -117,7 +117,7 @@ const ChatItem = ({
         }}
       >
         {role === "assistant" ? (
-          <img src="openai.png" alt="openai" width="30px" />
+          <img src="d.png" alt="openai" width="50px" />
         ) : (
           userName?.split(" ")[1]?.[0] || userName?.[0]
         )}
@@ -142,7 +142,7 @@ const ChatItem = ({
             }}
           >
             <img
-              src={image}
+              src="d.png"
               alt="User sent"
               style={{ height: "100%", width: "100%", objectFit: "cover" }}
             />

@@ -6,7 +6,7 @@ html, body{
   background: #05101c;
   color: white;
   font-family: "Roboto slab", serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .image-inverted {

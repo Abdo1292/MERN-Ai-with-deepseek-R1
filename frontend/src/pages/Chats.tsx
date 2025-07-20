@@ -232,7 +232,6 @@ const Chats = () => {
               key={index}
               content={chat.content}
               role={chat.role}
-              image={chat.image}
               isLoading={chat.role === 'assistant' && chat.content.trim() === ''}
             />
           ))}
@@ -240,7 +239,9 @@ const Chats = () => {
 
         <Box
           sx={{
-            width: '90%',
+            width: '100%',
+            maxWidth: '1000px',
+            minWidth: '300px',
             p: 2,
             borderRadius: 4,
             bgcolor: 'rgb(17,27,39)',
