@@ -138,7 +138,7 @@ const ChatItem = ({
               justifyContent: "center",
               alignItems: "center",
               overflow: "hidden",
-              my: "20px",
+              my: "20px"
             }}
           >
             <img
