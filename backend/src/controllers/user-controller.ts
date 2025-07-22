@@ -70,7 +70,6 @@ export const userLogin = async (
 
     const { email, password } = req.body;
     console.log("Email:", email);
-    console.log("Password:", password);
     const user = await User.findOne({ email });
     
     console.log("LOGIN HIT");
