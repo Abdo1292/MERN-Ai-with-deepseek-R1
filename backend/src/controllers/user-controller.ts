@@ -106,7 +106,7 @@ export const userLogin = async (
     });
 
     // Create and set new auth token cookie
-    const token = createToken(user._id.toString(), user.email, 7000);
+    const token = createToken(user._id.toString(), user.email, 7);
     const expires = new Date()
     expires.setDate(expires.getDate() + 7);
 
